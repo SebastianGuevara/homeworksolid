@@ -15,6 +15,8 @@ public class Main {
         verMateriasEstudiantes(listadoEstudiantes);
         EnvioMaterial material = new EnvioMaterial();
         material.enviarMaterialEstudiante(new Estudiante("Daniel", new Informatica(new Envio(), new EmailOutlook(new ServidoresEmail()))));
+        material.enviarMaterialEstudiante(new Estudiante("Juanito", new Administracion(new Envio(), new EmailOutlook(new ServidoresEmail()))));
+        material.enviarMaterialEstudiante(new Estudiante("Sebitas", new Industrial(new Envio(), new EmailOutlook(new ServidoresEmail()))));
     }
 
     public static void verMateriasEstudiantes(Estudiante[] estudiantes)

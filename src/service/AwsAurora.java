@@ -1,6 +1,6 @@
 package service;
 
-public class AwsArora implements IGuardarEnBD
+public class AwsAurora implements IGuardarEnBD
 {
     @Override
     public void guardarEstudiante()

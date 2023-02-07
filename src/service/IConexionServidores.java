@@ -1,2 +1,6 @@
-package service;public interface IConexionServidores {
+package service;
+
+public interface IConexionServidores
+{
+    void conectarConServidorEmail();
 }

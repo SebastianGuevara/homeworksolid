@@ -2,10 +2,17 @@ package service;
 
 import modelo.Envio;
 
-public class EmailOutlook {
+public class EmailOutlook{
 
-    void enviarEmail(Envio envio) {
-        System.out.println("ESTABLECIENDO CONEXION CON EL SERVIDOR");
+    ServidoresEmail servidoresEmail;
+
+    public EmailOutlook(ServidoresEmail servidoresEmail) {
+        this.servidoresEmail = servidoresEmail;
+    }
+
+    public void enviarEmail(Envio envio) {
+        servidoresEmail.conectarConServidorEmail();
         System.out.println("EMAIL ENVIADO y correspondencia " + envio);
     }
+
 }

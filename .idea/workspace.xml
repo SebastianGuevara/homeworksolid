@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d82aacdb-eab1-41f4-9288-7ad893db3d60" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Envio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Envio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Administracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Administracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Carrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Carrera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Industrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Industrial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Informatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Informatica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/AwsAurora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/AwsAurora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/EmailOutlook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/EmailOutlook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/EnvioMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/EnvioMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/IConexionServidores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/IConexionServidores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/IGuardarEnBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/IGuardarEnBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ServidoresEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ServidoresEmail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dsaavedra/Documents/unisabana/repo/homework-solid/src",
+    "last_opened_file_path": "C:/Users/sebas/OneDrive - Universidad de la Sabana/Sexto Semestre/Software/Ejemplo/solidViolation2",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>

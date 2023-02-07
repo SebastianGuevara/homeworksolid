@@ -1,2 +1,6 @@
-package service;public interface IGuardarEnBD {
+package service;
+
+public interface IGuardarEnBD
+{
+    void guardarEstudiante();
 }

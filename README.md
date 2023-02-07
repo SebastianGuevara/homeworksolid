@@ -1,0 +1,7 @@
+<h1>CAMBIOS HECHOS</h1>
+El problema open/closed fue el primero que notamos en este proyecto, tanto en la clase Main con el método verMateriasEstudiante() y en la clase EnvioMaterial con e metodo enviarMaterialEstudiante(). Para solucionarlo creamos la clase abstracta Carrera de donde heredan tres clases hijas (Informatica, Industrial y Administración). <br> <br> En la clase Carrera creamos 4 métodos (consultarMateriasCarrera(), obtenerMaterialCarrera(), obtenerSaludoDirectorCarrera() y enviarDatosCarrera()), esto con el fin de evitar que los métodos realicen más de una función y no violar el principio de responsabilidad unica.<br><br>Además, en el método guardarEstudiante() en la clase Estudiante y en el método enviarEmail() de la clase EmailOutlook ,notamos un incumplimiento del principio de responsabilidad única. Para darle solución a la clase Estudiante, creamos una interfaz IGuardarEnDB la cual es implementada por la clase AWSAurora, asuvez evitando afectar el principio de inversión de dependencias y para la clase EmailOutlook creamos una interfaz IConexionServidores la cual es implementada por ServidoresEmail.<br><br>Encontramos un atentado contra el principio de inversión de dependencia, en la clase EnvioMaterial por lo tanto hicimos que la clase Carrera tuviera como parámetro una instancia de la clase Envio aplicando así una inyección de dependencias. 
+
+<h2>PARTICIPANTES</h2>
+- Juan Andrés Valderrama<br>
+- Julián Pulido<br>
+- Sebastián Guevara<br>
